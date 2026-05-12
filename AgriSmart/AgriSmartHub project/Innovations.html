@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Innovations | AgriNova</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">AgriNova</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="innovations.html">Innovations</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Latest Agricultural Innovations</h2>
+    <div id="innovationCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="AI.jpg" class="d-block w-100" style="max-height: 350px; object-fit: cover;" alt="AI Crop Monitoring">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>AI‑Powered Crop Monitoring</h5>
+            <p>Real-time insights using satellite and drone data.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="irrigation.jpg" class="d-block w-100" style="max-height: 350px; object-fit: cover;" alt="Smart Irrigation">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Smart Irrigation Systems</h5>
+            <p>Efficient water usage with sensor‑based automation.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="blockchain.jpg" class="d-block w-100" style="max-height: 350px; object-fit: cover;" alt="Blockchain Supply Chain">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Blockchain in Agri‑Supply Chains</h5>
+            <p>Transparent and secure transactions for farmers and buyers.</p>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#innovationCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#innovationCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Innovation Cards -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h3 class="text-center mb-4">AgriNova Labs: Smart Technologies</h3>
+      <div class="row text-center g-4">
+
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>🧠 AI Crop Diagnostics</h5>
+            <p>Scan leaves with your phone to detect diseases instantly using machine learning.</p>
+            <a href="https://link.springer.com/article/10.1007/s10462-024-11100-x" target="_blank" class="btn btn-success mt-2">
+              Learn More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>💧 Smart Irrigation</h5>
+            <p>Automated water systems based on soil sensors and weather forecasts.</p>
+            <a href="https://www.mdpi.com/2073-4395/13/2/342" target="_blank" class="btn btn-success mt-2">
+              Learn More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>🚁 Drone Mapping</h5>
+            <p>High-resolution aerial surveys for crop health and land planning.</p>
+            <!-- This one is harder to find a perfect open-access “drone mapping + agri” review. I'll link to a FAO report: -->
+            <a href="https://www.fao.org/3/i9006en/I9006EN.pdf" target="_blank" class="btn btn-success mt-2">
+              Learn More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>🔗 Blockchain Traceability</h5>
+            <p>Track produce from farm to market with secure digital records.</p>
+            <a href="https://www.mdpi.com/2071-1050/14/5/2916" target="_blank" class="btn btn-success mt-2">
+              Learn More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>📱 Mobile Farmer Tools</h5>
+            <p>Access weather alerts, market prices, and advisory tips from any device.</p>
+            <a href="https://plantix.net/" target="_blank" class="btn btn-success mt-2">
+              Learn More
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm h-100">
+            <h5>🌾 Climate Resilience Models</h5>
+            <p>Predict crop risks and plan adaptive strategies using AI simulations.</p>
+            <!-- For climate resilience: link to a report or article. Here's one: -->
+            <a href="https://www.climatepolicyinitiative.org/publication/climate-resilience-agriculture/" target="_blank" class="btn btn-success mt-2">
+              Learn More
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Watch Section -->
+  <div class="container mb-5 text-center">
+    <h3 class="mb-3">Watch Smart Farming in Action</h3>
+    <a href="https://youtu.be/vdydWRr1J4U?si=Gtf39sbVyLyLBly7" target="_blank" class="btn btn-success btn-lg me-2 mb-2">
+      Watch on YouTube
+    </a>
+    <a href="https://youtube.com/shorts/_ZDtLk934L8?si=aTrGkS87byxe32SA" target="_blank" class="btn btn-success btn-lg mb-2">
+      Watch on YouTube
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center py-3">
+    <p>&copy; 2025 AgriNova | Follow us on 
+      <i class="bi bi-facebook"></i> 
+      <i class="bi bi-twitter"></i> 
+      <i class="bi bi-instagram"></i>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
